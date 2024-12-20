@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Raleway", serif; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header {
+    background: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+   
+   
+}
+
+nav{
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#GetApp{
+   font-size: 16px;
+   font-weight: 500;
+}
+
+
+#Menu ul{
+    display: flex;
+    gap: 40px;
+    list-style-type:none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+a{
+    text-decoration:none;
+    color: white;
+    font-weight: 400;
+}
+
+
+#main{
+    height: calc(60vh - 72px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#main #logo{
+    
+    margin-top: 35px;
+}
+
+#logo img{
+    width: 280px;
+}
+
+#main #tageline{
+    margin: 30px 0;
+}
+
+#main #tageline h1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 37px;
+}
+
+#search-container{
+    background-color: #fff;
+    width: 50%;
+    padding: 15PX 25PX;
+    border-radius: 12PX;
+    display: flex;
+
+}
+
+#search-container #city{
+    border-right: 2px solid #cfcfcf;
+    padding-right: 15px;
+}
+
+#search-container #city input{
+    border: none;
+    margin-left: 5px;
+}
+
+#restraurant {
+    margin-left: 20px;
+}
+
+#restraurant i{
+    margin-right: 10px;
+}
+
+#restraurant span{
+    color: #868686;
+}
